@@ -32,14 +32,19 @@ The project follows a standard deep learning workflow for image classification:
 # 4. Results
 
 The trained classifier is able to achieve a high level of accuracy in recognizing handwritten digits.
+
 **Accuracy: 97.54%**
+
 Interpretation: This represents the percentage of digits that our model correctly classified on the test set.
 
 # 5. Technologies Used
 
 Python
+
 NumPy
+
 Matplotlib(for visualization)
+
 Tenserflow,Keras
 
 # 6. How to Run the Project
@@ -48,13 +53,16 @@ To run this project, you need to have Python and the required libraries installe
 Clone the repository:
 
 ```Bash
-git clone https://github.com/[your-username]/Handwritten-Digit-Recognition.git
-Navigate to the project directory:
+git clone https://github.com/neel-09/Handwritten-Digit-Recognition.git
+
 ```
+
+Navigate to the project directory:
 
 ```Bash
 cd Handwritten-Digit-Recognition
 ```
 
 Run the Jupyter Notebook:
+
 Open the ```Project 3.ipynb``` file in Jupyter Notebook and run the cells.
