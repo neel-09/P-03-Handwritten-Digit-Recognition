@@ -11,7 +11,9 @@ This project focuses on the classic machine learning problem of recognizing hand
 The MNIST dataset consists of 70,000 images of handwritten digits.
 
 *Images:* Each image is a grayscale image with a resolution of 28x28 pixels.
+
 *Classes:* There are 10 classes, one for each digit from 0 to 9.
+
 The dataset is typically split into 60,000 training images and 10,000 testing images.
 
 # 3. Methodology
@@ -19,8 +21,11 @@ The dataset is typically split into 60,000 training images and 10,000 testing im
 The project follows a standard deep learning workflow for image classification:
 
 **Data Preprocessing:** Images are flattened and normalized to scale the pixel values.
+
 **Model Architecture:** A Neural Network (or a Convolutional Neural Network) is designed using the **Keras** API.
-**Model Training:** The model is trained on the preprocessed training data using the **TensorFlow** backend.
+
+**Model Training:** The model is trained on the preprocessed training data using **TensorFlow**.
+
 **Model Evaluation:** The model's performance is measured using **accuracy** and a **confusion matrix** on the test set.
 
 
